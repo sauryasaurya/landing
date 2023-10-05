@@ -27,7 +27,7 @@ const AboutUsTrackAudience = () => {
 						/>
 						<Text
 							className="desc"
-							content="With our top-notch employee management, work schedules, timesheets, time tracker, and invoices, business owners, service providers and employees are no longer required to exhaust too much time and energy on paperwork, but devote more time to better developmental activities."
+							content="With our top-notch employee management, work schedules, timesheets, time trackers, and invoices, business owners, service providers, and employees are no longer required to exhaust too much time and energy on paperwork but can devote more time to better developmental activities."
 						/>
 						<Link className="link" href="#">
 							Learn More <Icon size={20} icon={ic_chevron_right} />

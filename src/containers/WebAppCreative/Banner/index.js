@@ -1,18 +1,15 @@
-import React from "react";
-import Container from "@/common/components/UI/Container";
-import Heading from "@/common/components/Heading";
-import Text from "@/common/components/Text";
-import Input from "@/common/components/Input";
+import dashboard from "@/common/assets/image/webAppCreative/dashboard.png";
 import Button from "@/common/components/Button";
+import Heading from "@/common/components/Heading";
 import NextImage from "@/common/components/NextImage";
+import Text from "@/common/components/Text";
+import Container from "@/common/components/UI/Container";
+
 import Section, {
-	BannerContentWrapper,
 	BannerContent,
-	Subscribe,
+	BannerContentWrapper,
 	Figure,
 } from "./banner.style";
-import dashboard from "@/common/assets/image/webAppCreative/dashboard.png";
-import envelope from "@/common/assets/image/webAppCreative/icons/envelope.png";
 
 const Banner = () => {
 	return (
@@ -22,22 +19,13 @@ const Banner = () => {
 					<BannerContent>
 						<Heading
 							className="animate__animated animate__fadeInUp"
-							content="Schedule work and generate Auto Invoice for your client in one place."
+							content="Free Scheduling and Time tracking Software for your company."
 						/>
 						<Text
 							className="animate__animated animate__fadeInUp"
 							content="Velorona is a time tracker and a timesheet app that let's you generate auto Invoice for your clients according to worked hour whithout need of any extra tools."
 						/>
-						<Subscribe className="animate__animated animate__fadeInUp">
-							{/* <Input
-                inputType="email"
-                placeholder="Your work email"
-                iconPosition="left"
-                aria-label="email"
-                icon={<img src={envelope?.src} alt="envelope" />}
-              />
-              <Button title="Get a demo" type="submit" /> */}
-						</Subscribe>
+						<Button title="Get a demo" type="submit" />
 					</BannerContent>
 					<Figure className="animate__animated animate__fadeInUp animate__fast">
 						<NextImage src={dashboard} alt="dashboard" />

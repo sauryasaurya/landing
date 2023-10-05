@@ -386,28 +386,30 @@ export const posts = [
 export const faqs = [
 	{
 		id: 1,
-		title: "01. What is the process of project final delivery system?",
-		description: `Our Customer Experience Team is available 7 days a week and we offer 2 ways to get in contact.Email and Chat. We try to reply quickly, so you need not to wait too long for a response!.`,
+		title: "01. Is Velorona Free?",
+		description: `We have both a free plan and a pro plan.`,
 	},
 	{
 		id: 2,
-		title: "02. What is payment process, believe in upfront?",
-		description: `Please read the documentation carefully. We also have some online  video tutorials regarding this issue. If the problem remains, Please Open a ticket in the support forum.`,
+		title:
+			"02. What to do If I have not received any Invitation as an employee?",
+		description: `Usually, the invites are received immediately. You can try waiting for a few more minutes. If you have not received any invitation, try to contact your Company Admin. Recheck the email address entered while creating the account. Also, check for any emails in your spam folder.`,
 	},
 	{
 		id: 3,
-		title: "03. What is the process of project final delivery system?",
-		description: `At first, Please check your internet connection. We also have some online  video tutorials regarding this issue. If the problem remains, Please Open a ticket in the support forum.`,
+		title:
+			"03. If an employee is made inactive is their data still available in the reports?",
+		description: `Yes, even if the employees are made inactive, their data is still available, and it does not get deleted from the system.`,
 	},
 	{
 		id: 4,
-		title: "04. Estimate project budget for categories?",
-		description: `Our core members created this place for Designers, Developers, Product Owners, Marketing Managers, startup's, Freelancers and really for everyone who appreciates fine designs and well-crafted sites. We want to inspire and support you in the process of creating your own unique website projects.`,
+		title: "04. How do I download data for personal use?",
+		description: `The data can be downloaded by Company Admin. Go to Reports Click on Specific Feature whose data you would like to download.`,
 	},
 	{
 		id: 5,
-		title: "05. All about project customization & monetization",
-		description: `We are giving the update of this theme continuously. You will receive an email Notification when we push an update. Always try to be updated with us.`,
+		title: "05. How many types of Invoices are created in Velorona?",
+		description: `Two types of Invoices are created, manual and automatic`,
 	},
 ];
 

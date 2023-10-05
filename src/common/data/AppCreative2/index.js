@@ -285,9 +285,8 @@ export const walletExperience = {
 /* ------------------------------------ */
 export const technologyCommunity = {
 	slogan: "Technology based Community",
-	title:
-		"Join our community by using our technology to grow up faster with our tools",
-	desc: `Our data centers have top-notch security and surveillance, with a reliable 99.9% uptime. Secure email hosting with encryption both at rest and end-to-end, along with S/MIME message encryption.`,
+	title: "We Are Always Ready To Help You.",
+	desc: `You don't have to get stranded or confused about our services in Velorona. It doesn't matter if you have never used our software before or if you're seeking for a new experience in your business, we have you covered whatever the case may be. We cannot wait to begin a rewarding journey with you!`,
 	thumb: technologyImage,
 	button: {
 		label: "Explore More",
