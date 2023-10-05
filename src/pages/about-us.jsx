@@ -1,5 +1,4 @@
 import AboutUsServices from "@/components/AboutUsServices";
-import AboutUsTestimonials from "@/components/AboutUsTestimonials";
 import AboutUsTrackAudience from "@/components/AboutUsTrackAudience";
 import ContactSection from "@/components/Contact";
 
@@ -9,7 +8,6 @@ const ContactUs = () => {
 			<AboutUsTrackAudience />
 			{/* <AboutUsTrack /> */}
 			<AboutUsServices />
-			<AboutUsTestimonials />
 			<ContactSection />
 		</section>
 	);
