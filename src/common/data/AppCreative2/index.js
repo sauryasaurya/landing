@@ -286,7 +286,7 @@ export const walletExperience = {
 export const technologyCommunity = {
 	slogan: "Technology based Community",
 	title: "We Are Always Ready To Help You.",
-	desc: `You don't have to get stranded or confused about our services in Velorona. It doesn't matter if you have never used our software before or if you're seeking for a new experience in your business, we have you covered whatever the case may be. We cannot wait to begin a rewarding journey with you!`,
+	desc: `Navigating our services at Velorona is always hassle-free and straightforward. We're here to guide you every step of the way regardless of your level of experience with our software. Your satisfaction and success are our priority, and we're excited to embark on a mutually rewarding journey with you!`,
 	thumb: technologyImage,
 	button: {
 		label: "Explore More",
@@ -296,7 +296,7 @@ export const technologyCommunity = {
 export const technologyCommunityPricing = {
 	slogan: "Technology based Community",
 	title: "We have plans suitable for small to large businesses.",
-	desc: `Velorona is specifically created to help business owners solve problems. There are no limits to the heights your business can ascend to when you work with Velorona. Choose any of our plans below that falls in line with your business, budget and expectations.`,
+	desc: `Explore a range of plans tailored to fit businesses of all sizes, ranging from small startups to large established enterprises. Velorona is purpose-built to assist business owners in overcoming challenges and optimizing operations. The potential for your business to thrive knows no bounds when you partner with Velorona. Choose our plans below that align with your business needs, budget, and expectations.`,
 	thumb: technologyImage,
 	button: {
 		label: "Explore More",

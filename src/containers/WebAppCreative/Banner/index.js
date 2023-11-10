@@ -20,7 +20,7 @@ const Banner = ({ button }) => {
 					<BannerContent>
 						<Heading
 							className="animate__animated animate__fadeInUp"
-							content="Free Scheduling and Time tracking Software for your company."
+							content="Your Solution for Streamlined Employee and Client Management"
 						/>
 						<Text
 							className="animate__animated animate__fadeInUp"

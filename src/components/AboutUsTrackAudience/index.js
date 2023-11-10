@@ -23,11 +23,15 @@ const AboutUsTrackAudience = () => {
 					<TextContent>
 						<Heading
 							className="title"
-							content="We thrive to provide all the needs of your business."
+							content="We thrive to empower your business by catering to all your needs."
 						/>
 						<Text
 							className="desc"
-							content="With our top-notch employee management, work schedules, timesheets, time trackers, and invoices, business owners, service providers, and employees are no longer required to exhaust too much time and energy on paperwork but can devote more time to better developmental activities."
+							content="Velorona is dedicated to fulfilling every aspect of your business needs. We offer exceptional solutions for employee management, work scheduling, timesheets, time tracking, and invoicing."
+						/>
+						<Text
+							className="desc"
+							content="With our advanced platform, business owners, service providers, and employees no longer need to invest excessive time and effort in paperwork. Instead, they can focus more on meaningful and progressive activities, ultimately contributing to business growth and success. Experience the transformative journey from administrative burdens to streamlined operations with Velorona."
 						/>
 						<Link className="link" href="#">
 							Learn More <Icon size={20} icon={ic_chevron_right} />

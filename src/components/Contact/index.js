@@ -41,9 +41,8 @@ const ContactSection = ({
 					</ContactFromWrapper>
 				</Box>
 				{/* <Box {...row}>
-          <Box {...contactForm}>
-          </Box>
-        </Box> */}
+          			<Box {...contactForm}></Box>
+        		</Box> */}
 			</Container>
 		</Box>
 	);

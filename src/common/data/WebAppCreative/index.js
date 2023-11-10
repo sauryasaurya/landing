@@ -69,16 +69,16 @@ export const howTos = [
 	{
 		id: 1,
 		icon: icon1,
-		title: "Schedule Smartly",
-		text: `Schedule work hours to your employee for In House project or Client's project.`,
+		title: "Smart Scheduling",
+		text: `Efficiently plan your team's work hours, whether it's for in-house projects or client assignments.`,
 		linkLabel: "Learn More",
 		link: "#",
 	},
 	{
 		id: 2,
 		icon: icon2,
-		title: "Add Timesheet",
-		text: `The employees can fill up the timesheet according to their working time.`,
+		title: "Timesheet Management",
+		text: `Allow employees to easily record their working hours by filling out their timesheet, that accurately reflects their tasks and projects.`,
 		linkLabel: "Learn More",
 		link: "#",
 	},
@@ -86,15 +86,15 @@ export const howTos = [
 		id: 3,
 		icon: icon3,
 		title: "Check In & Checkout",
-		text: `There is Check in and Check out feature automatically track your worked hour.`,
+		text: `Utilize the Check-In and Check-Out feature for ensuring accurate tracking of your team's work hours.`,
 		linkLabel: "Learn More",
 		link: "#",
 	},
 	{
 		id: 4,
 		icon: icon4,
-		title: "Automatic Invoice",
-		text: `Automatic Invoice will be generated on Monthly/Weekly basis according to the hourly service provided.`,
+		title: "Automatic Invoicing",
+		text: `Save time and reduce administrative hassle with our automated invoicing system which are generated on a monthly/weekly basis, based on the hours of service provided.`,
 		linkLabel: "Learn More",
 		link: "#",
 	},
@@ -102,8 +102,8 @@ export const howTos = [
 
 export const analyticsTool = {
 	// slogan: 'Audience source monitoring',
-	title: "Advanced tools to keep your clients work organized.",
-	desc: `Pick one of our plans and enjoy seamless experience of not having to worry about manually creating invoice and tracking worked hour of employees.`,
+	title: "Advanced Tools for Streamlining Your Client's Work",
+	desc: `Discover the power of Velorona’s advanced tools that are designed to keep your client’s work impeccably organized and efficient to ensure a seamless experience.`,
 	features: [
 		"Unlimited User creation",
 		"Overlapping Schedules",
@@ -157,28 +157,35 @@ export const testimonials = [
 		logo: icon5,
 		author: "Johnny Simpson",
 		designation: "Head of Design",
-		quote: `Each room is loaded with the most collaborative surfaces so you can quickly take notes, capture to-dos, and share ideas. Pick one of our stock themes, or create your custom theme with the editors.`,
+		quote: `Velorona is truly a game changer for our business and streamlining our financial processes. It has revolutionized the way we manage our business. It’s tailored invoice templates saved us hours of work. We couldn't be happier with the results it has brought to our operations.`,
 	},
 	{
 		id: 2,
 		logo: icon6,
 		author: "Deanna Hodges",
 		designation: "Business HR Admin",
-		quote: `We deliver on such an expansive with innovation agenda with so many theme projects going on at any time, it can be hard to maintain momentum. So We appreciate to work with them.`,
+		quote: `Our transition to using Velorona has been smooth and incredibly beneficial. The platform itself is a great fit for our business, providing the perfect blend of features, user-friendliness, and affordability. We highly recommend Velorona to fellow business owners.`,
 	},
 	{
 		id: 3,
 		logo: icon7,
-		author: "Gracelyn Mason",
+		author: "Rory Mason",
 		designation: "Senior Marketer",
-		quote: `Flat item is loaded with the most of collaborative surfaces so you can do quickly take notes, capture to-dos, and share ideas. Pick one of our stock themes, or create your custom theme with statics.`,
+		quote: `Velorona has made employee management and time tracking a simple and efficient process. The plat-form's ability to seamlessly track tasks and generate invoices has greatly enhanced our productivity. It's become an integral tool in our business operations, simplifying complex processes and allowing us to focus more on delivering excellent service to our clients.`,
 	},
 	{
 		id: 4,
 		logo: icon5,
-		author: "Gracelyn Mason",
-		designation: "Senior Marketer",
-		quote: `Flat item is loaded with the most of collaborative surfaces so you can do quickly take notes, capture to-dos, and share ideas. Pick one of our stock themes, or create your custom theme with statics.`,
+		author: "Ralph Simpson",
+		designation: "Project Manager",
+		quote: `Choosing Velorona was a strategic move for our business. It has made employee management and time tracking a simple and efficient process. Additionally, it has improved our workflow, helping us stay organized and ensuring we meet our project deadlines with ease. We highly recommend Velorona for its reliability and effectiveness.`,
+	},
+	{
+		id: 5,
+		logo: icon4,
+		author: "Henry Williams",
+		designation: "Client Relationship Manager",
+		quote: `Velorona has transformed the way we organize our tasks and manage projects. Its adaptability to businesses of all sizes is commendable. Their support team has been nothing short of exceptional, always ready to assist us whenever needed. It's become an indispensable tool for our organization, providing us with insights into our team's productivity and helping us make informed decisions to drive our business.`,
 	},
 ];
 
@@ -386,30 +393,58 @@ export const posts = [
 export const faqs = [
 	{
 		id: 1,
-		title: "01. Is Velorona Free?",
-		description: `We have both a free plan and a pro plan.`,
+		title: "01. What is Velorona?",
+		description: `Velorona serves as Employee Resource Management (ERM) platform, offered through a Software-as-a-Service (SaaS) model. It is a work scheduling and time-sheet application, with added convenience of mobile application. It empowers users to effortlessly generate auto-invoices for their clients based on the hours worked, eliminating the need for any additional software or tools`,
 	},
 	{
 		id: 2,
-		title:
-			"02. What to do If I have not received any Invitation as an employee?",
-		description: `Usually, the invites are received immediately. You can try waiting for a few more minutes. If you have not received any invitation, try to contact your Company Admin. Recheck the email address entered while creating the account. Also, check for any emails in your spam folder.`,
+		title: "02. Is Velorona Free?",
+		description: `Yes. Velorona offers options for both always free plans as well as pro plans as per user preferences.`,
 	},
 	{
 		id: 3,
-		title:
-			"03. If an employee is made inactive is their data still available in the reports?",
-		description: `Yes, even if the employees are made inactive, their data is still available, and it does not get deleted from the system.`,
+		title: "03. What do I get with the free trial?",
+		description: `With Velorona, you don’t need a free trial. We offer an always free plan for up to 6 users with unlimited approvers, allowing you to experience platform’s all features without any limitations.`,
 	},
 	{
 		id: 4,
-		title: "04. How do I download data for personal use?",
-		description: `The data can be downloaded by Company Admin. Go to Reports Click on Specific Feature whose data you would like to download.`,
+		title: "04. Are there any limit in the free plan?",
+		description: `You can only invite upto 5 users excluding one Company Admin before needing to upgrade to pro plan. There is no feature limitations in free plan.`,
 	},
 	{
 		id: 5,
-		title: "05. How many types of Invoices are created in Velorona?",
-		description: `Two types of Invoices are created, manual and automatic`,
+		title: "05. What currency does Velorona use?",
+		description: `Velorona uses US Dollars ($) as a pricing and billing currency.`,
+	},
+	{
+		id: 6,
+		title: "06. What is considered an active user?",
+		description: `An active user in Velorona refers to all users invited to the company and is currently active or inactive except archived users . However, archived users and those assigned with approver role are not considered as active users.`,
+	},
+	{
+		id: 7,
+		title: "07. How do I get in touch with support?",
+		description: `Contacting our Support Team is easy! You can get in touch with us via live chat, phone call, or email.`,
+	},
+	{
+		id: 8,
+		title: "08. What types of payment are supported?",
+		description: `We accept all major debit cards, credit cards & various digital wallets.`,
+	},
+	{
+		id: 9,
+		title: "09. Do you offer refunds?",
+		description: `Velorona does not typically offer refunds. However, if you have been mistakenly charged due to a system error, please reach out to us. We’ll promptly investigate the issue and process a refund where necessary.`,
+	},
+	{
+		id: 10,
+		title: "10. Are there any additional taxes?",
+		description: `Yes. All the pricing and invoice amounts in Velorona are exclusive of Taxes. Additional taxes will be charged based on the applicable tax regulations of your country and state..`,
+	},
+	{
+		id: 11,
+		title: "11. How does canceling work?",
+		description: `When it comes to canceling your subscription, you can opt to downgrade to the free plan. For this, ensure to reduce the number of users to meet the limit of the free plan.`,
 	},
 ];
 

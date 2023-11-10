@@ -123,22 +123,22 @@ export const SERVICE_DATA = [
 	{
 		icon: service1,
 		title: "Complete Employee Management",
-		text: `We provide excellent managerial experience for you where we don't only make your employees totally understand your objectives, but we help execute tasks that drive your business to achieve all its goals.`,
+		text: `At Velorona, we offer an exceptional managerial support where we not only ensure your employees fully comprehend your objectives, but also assist in executing tasks crucial for achieving your business goals.`,
 	},
 	{
 		icon: service2,
 		title: "Support a Wide Range of Users",
-		text: "Easily assess the time spent on tasks, projects or client related activities, as well as helping you with automated and manual invoice generators for a stress-free work experience.",
+		text: "Easily track time dedicated to tasks, projects, or client-related activities. Benefit from both automated and manual invoice generators, creating a stress-free work experience.",
 	},
 	{
 		icon: service3,
 		title: "Keep Track of All Your Tasks",
-		text: "We help business owners to seamlessly monitor and keep an eye on everything that is going on in their businesses, no matter how big your firm has grown.",
+		text: "Business owners can seamlessly monitor all ongoing tasks within the business, regardless of its size. Stay informed and in control, even as your business grows.",
 	},
 	{
 		icon: service4,
-		title: "Invoice Billing Made Easier Than Ever",
-		text: "We provide perfectly designed templates that are individually tailored for your business, to help you save time, energy and resources.",
+		title: "Simplified Invoice Billing",
+		text: "Velorona offers perfectly designed, customizable invoice templates tailored to your business. Save valuable time, energy, and resources, ensuring a hassle-free invoicing process.",
 	},
 ];
 
