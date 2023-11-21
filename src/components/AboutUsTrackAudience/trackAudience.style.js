@@ -1,5 +1,5 @@
-import styled from "styled-components";
 import { themeGet } from "@styled-system/theme-get";
+import styled from "styled-components";
 
 export const Section = styled.section`
 	padding: 80px 0;
@@ -10,13 +10,15 @@ export const Section = styled.section`
 
 export const ContentWrapper = styled.div`
 	display: flex;
-	align-items: center;
+	align-items: stretch;
 	@media only screen and (max-width: 768px) {
 		flex-direction: column;
 	}
 `;
 
-export const Illustration = styled.figure``;
+export const Illustration = styled.figure`
+	/* align-self: flex-end !important; */
+`;
 
 export const TextContent = styled.div`
 	max-width: 465px;

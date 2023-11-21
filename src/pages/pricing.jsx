@@ -8,12 +8,14 @@ import {
 
 const SubscriptionPlans = () => {
 	return (
-		<CombinedSection>
-			<ContactUsTechnologyPricing />
-			<PricingAppMinimal />
-			<CornerPattern />
-			<ContactSection />
-		</CombinedSection>
+		<section className="mt-12 md:mt-16 lg:mt-24">
+			<CombinedSection>
+				<ContactUsTechnologyPricing />
+				<PricingAppMinimal />
+				<CornerPattern />
+				<ContactSection />
+			</CombinedSection>
+		</section>
 	);
 };
 
