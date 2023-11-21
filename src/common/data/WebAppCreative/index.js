@@ -483,10 +483,13 @@ export const footerTop = {
 	],
 	contactInfo: {
 		title: "Contact info",
-		address: `Mohakhali DOHS, Amsterdam, Netherlands`,
+		address: "1001 W Euless Blvd Ste # 411 Euless, TX-76040",
+		address1: `1001 W Euless Blvd Ste #`,
+		address2: `411`,
+		address3: `Euless, TX-76040`,
 		phone: `+31 62 19 22 705`,
 		openingTime: `7 Days - 8am - 10pm`,
-		email: `info@redqteam.com`,
+		email: `info@velorona.com`,
 	},
 };
 

@@ -28,7 +28,12 @@ const ContactUsMessage = ({ button }) => {
 								<Heading as="h4" content={footerTop.contactInfo.title} />
 								<InfoItem>
 									<Icon icon={ic_place} size={24} />
-									<Text content={footerTop.contactInfo.address} />
+									<div className="flex flex-col">
+										<Text content={footerTop.contactInfo.address} />
+										{/* <Text content={footerTop.contactInfo.address1} />
+										<Text content={footerTop.contactInfo.address2} />
+										<Text content={footerTop.contactInfo.address3} /> */}
+									</div>
 								</InfoItem>
 								<InfoItem>
 									<Icon icon={ic_phone} size={26} className="phone-icon" />

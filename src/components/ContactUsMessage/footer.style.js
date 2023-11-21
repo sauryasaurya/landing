@@ -1,6 +1,6 @@
-import styled from "styled-components";
 import { themeGet } from "@styled-system/theme-get";
 import { rgba } from "polished";
+import styled from "styled-components";
 
 export const Section = styled.footer`
 	padding-top: 50px;
