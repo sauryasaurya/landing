@@ -41,7 +41,7 @@ export default class CustomDocument extends Document {
 					<link rel="icon" href="/favicon.png" />
 					<link
 						rel="icon"
-						href="https://react-next-landing.redq.io/_next/static/images/favicon-ec2551afb2782a53fb493269d1ba4efe.png"
+						href="https://velorona-storage.s3.amazonaws.com/assets/logos/transparent/logo-only/png/50x50.png"
 					/>
 				</Head>
 				<body>

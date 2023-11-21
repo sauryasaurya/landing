@@ -13,7 +13,7 @@ import { useContext } from "react";
 import ScrollSpyMenu from "@/common/components/ScrollSpyMenu";
 import { menu_items } from "@/common/data/WebAppCreative";
 
-import logoImage from "@/common/assets/image/webAppCreative/logo.png";
+import logoImage from "@/common/assets/image/webAppCreative/velorona50x50.svg";
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
 	const { state, dispatch } = useContext(DrawerContext);

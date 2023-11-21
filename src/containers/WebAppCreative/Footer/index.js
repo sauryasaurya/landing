@@ -1,8 +1,9 @@
+import logoImage from "@/common/assets/image/webAppCreative/velorona50x50.svg";
 import Heading from "@/common/components/Heading";
-import Image from "@/common/components/Image";
 import Link from "@/common/components/Link";
 import Text from "@/common/components/Text";
 import Container from "@/common/components/UI/Container";
+import Logo from "@/common/components/UIElements/Logo";
 import { footer, footerTop } from "@/common/data/WebAppCreative";
 import { Icon } from "react-icons-kit";
 import { paperPlane } from "react-icons-kit/fa/paperPlane";
@@ -26,7 +27,14 @@ const Footer = () => {
 			<Container width="1400px">
 				<Grid>
 					<AboutUs>
-						<Image src={footerTop.about.logo?.src} alt="Web App Creative" />
+						{/* <Image src={logoImage} alt="Web App Creative" /> */}
+						<Logo
+							href="/"
+							logoSrc={logoImage}
+							title="WebAop Creative"
+							// logoStyle={logoStyle}
+							// className="main-logo"
+						/>
 						<Text content={footerTop.about.text} />
 					</AboutUs>
 
