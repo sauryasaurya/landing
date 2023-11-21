@@ -13,7 +13,7 @@ import Section, {
 	Grid,
 } from "./technology.style";
 
-const DemoRequestArea = () => {
+const DemoRequestArea = ({ button }) => {
 	return (
 		<Section>
 			<Container width="1400px">
@@ -85,7 +85,7 @@ const DemoRequestArea = () => {
 								/>
 							</div>
 
-							<Button title="Request Demo" />
+							<Button {...button} title="Request Demo" />
 						</Box>
 					</FigureWrapper>
 

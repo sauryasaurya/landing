@@ -45,6 +45,9 @@ export const Figure = styled.figure`
 `;
 
 export const FigureWrapper = styled.div`
+	button {
+		width: 100%;
+	}
 	@media (min-width: 1220px) {
 		max-width: 616px;
 		flex: 0 0 616px;

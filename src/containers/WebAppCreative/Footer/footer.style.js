@@ -1,6 +1,6 @@
-import styled from "styled-components";
 import { themeGet } from "@styled-system/theme-get";
 import { rgba } from "polished";
+import styled from "styled-components";
 
 export const Section = styled.footer`
 	padding-top: 50px;
@@ -16,6 +16,8 @@ export const Grid = styled.div`
 	@media screen and (max-width: 480px) {
 		gap: 20px 0px;
 		grid-template-columns: repeat(2, 50%);
+		/* grid-template-columns: repeat(3, 1fr); */
+		/* align-items: center; */
 	}
 `;
 
