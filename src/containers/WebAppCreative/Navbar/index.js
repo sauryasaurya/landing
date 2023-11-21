@@ -42,12 +42,12 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
 							menuItems={menu_items}
 							offset={-70}
 						/>
-						<Link href="#" legacyBehavior>
+						<Link href={process.env.NEXT_PUBLIC_LOGIN_URL} legacyBehavior>
 							<a className="navbar_button navbar_button_one">
 								<Button {...button} title="Login Now" />
 							</a>
 						</Link>
-						<Link href="#" legacyBehavior>
+						<Link href={process.env.NEXT_PUBLIC_SIGNUP_URL} legacyBehavior>
 							<a className="navbar_button navbar_button_two">
 								<Button {...button} title="Join Free" />
 							</a>
