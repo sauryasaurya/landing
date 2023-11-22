@@ -1,12 +1,8 @@
-import React from "react";
-import { Icon } from "react-icons-kit";
-import { arrowRight } from "react-icons-kit/feather/arrowRight";
-import Container from "@/common/components/UI/Container";
-import NextImage from "@/common/components/NextImage";
-import Link from "@/common/components/Link";
 import Heading from "@/common/components/Heading";
+import NextImage from "@/common/components/NextImage";
 import Text from "@/common/components/Text";
-import Section, { SectionHeading, Grid, Item } from "./howItWorks.style";
+import Container from "@/common/components/UI/Container";
+import Section, { Grid, Item, SectionHeading } from "./howItWorks.style";
 
 import { howTos } from "@/common/data/WebAppCreative";
 
@@ -25,9 +21,9 @@ const HowItWorks = () => {
 							</figure>
 							<Heading as="h4" content={howTo.title} />
 							<Text content={howTo.text} />
-							<Link href={howTo.link}>
+							{/* <Link href={howTo.link}>
 								{howTo.linkLabel} <Icon icon={arrowRight} />
-							</Link>
+							</Link> */}
 						</Item>
 					))}
 				</Grid>
