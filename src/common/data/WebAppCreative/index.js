@@ -8,9 +8,6 @@ import icon1 from "@/common/assets/image/webAppCreative/icons/1.png";
 import icon2 from "@/common/assets/image/webAppCreative/icons/2.png";
 import icon3 from "@/common/assets/image/webAppCreative/icons/3.png";
 import icon4 from "@/common/assets/image/webAppCreative/icons/4.png";
-import icon5 from "@/common/assets/image/webAppCreative/icons/5.png";
-import icon6 from "@/common/assets/image/webAppCreative/icons/6.png";
-import icon7 from "@/common/assets/image/webAppCreative/icons/7.png";
 import asana from "@/common/assets/image/webAppCreative/icons/asana.png";
 import donut from "@/common/assets/image/webAppCreative/icons/donut.png";
 import drive from "@/common/assets/image/webAppCreative/icons/drive.png";
@@ -23,7 +20,10 @@ import icecream from "@/common/assets/image/webAppCreative/icons/icecream.png";
 import linkedin from "@/common/assets/image/webAppCreative/icons/linkedin.png";
 import messenger from "@/common/assets/image/webAppCreative/icons/messenger.png";
 import nginx from "@/common/assets/image/webAppCreative/icons/nginx.png";
+import oneTriam from "@/common/assets/image/webAppCreative/icons/oneTriam.png";
 import pizza from "@/common/assets/image/webAppCreative/icons/pizza.png";
+import prisaLLC from "@/common/assets/image/webAppCreative/icons/prisaConsulting.png";
+import icon8 from "@/common/assets/image/webAppCreative/icons/sapriTech2.png";
 import slack2 from "@/common/assets/image/webAppCreative/icons/slack.png";
 import smashingMag from "@/common/assets/image/webAppCreative/icons/smashing-mag.png";
 import zeplin from "@/common/assets/image/webAppCreative/icons/zeplin.png";
@@ -152,39 +152,39 @@ export const dashboard = {
 export const testimonials = [
 	{
 		id: 1,
-		logo: icon5,
-		author: "Johnny Simpson",
-		designation: "Head of Design",
+		logo: icon8,
+		author: "Emma Smith",
+		designation: "Human Resource",
 		quote: `Velorona is truly a game changer for our business and streamlining our financial processes. It has revolutionized the way we manage our business. It’s tailored invoice templates saved us hours of work. We couldn't be happier with the results it has brought to our operations.`,
 	},
 	{
 		id: 2,
-		logo: icon6,
-		author: "Deanna Hodges",
-		designation: "Business HR Admin",
+		logo: prisaLLC,
+		author: "David Williams",
+		designation: "Account Manager",
 		quote: `Transitioning to Velorona has been remarkably smooth and beneficial for our business. The platform seamlessly integrates features, user-friendliness, and affordability, making it a perfect fit. We wholeheartedly recommend Velorona to fellow business owners for an optimal and cost-effective solution.`,
 	},
 	{
 		id: 3,
-		logo: icon7,
-		author: "Rory Mason",
-		designation: "Senior Marketer",
+		logo: oneTriam,
+		author: "Ruby Sharma",
+		designation: "Client Relationship Manager",
 		quote: `Velorona streamlines employee management and time tracking, enhancing productivity with seamless task tracking and efficient invoice generation. Integral to our operations, it enables us to focus on delivering excellent service, simplifying processes, and boosting overall business efficiency.`,
 	},
-	{
-		id: 4,
-		logo: icon5,
-		author: "Ralph Simpson",
-		designation: "Project Manager",
-		quote: `Opting for Velorona strategically transformed our business. Simplifying employee management and time tracking, it streamlined workflows, ensuring organizational efficiency and timely project delivery. We highly endorse Velorona for its reliability, making it an essential choice for businesses seeking effectiveness and seamless operations.`,
-	},
-	{
-		id: 5,
-		logo: icon5,
-		author: "Henry Williams",
-		designation: "Client Relationship Manager",
-		quote: `Velorona transformed our task organization and project management. Its commendable adaptability to businesses of all sizes is noteworthy. The exceptional support team is always ready to assist. Velorona has become indispensable, offering insights into team productivity and aiding informed decisions, making it a crucial tool for our organization.`,
-	},
+	// {
+	// 	id: 4,
+	// 	logo: icon5,
+	// 	author: "Ralph Simpson",
+	// 	designation: "Project Manager",
+	// 	quote: `Opting for Velorona strategically transformed our business. Simplifying employee management and time tracking, it streamlined workflows, ensuring organizational efficiency and timely project delivery. We highly endorse Velorona for its reliability, making it an essential choice for businesses seeking effectiveness and seamless operations.`,
+	// },
+	// {
+	// 	id: 5,
+	// 	logo: icon5,
+	// 	author: "Henry Williams",
+	// 	designation: "Client Relationship Manager",
+	// 	quote: `Velorona transformed our task organization and project management. Its commendable adaptability to businesses of all sizes is noteworthy. The exceptional support team is always ready to assist. Velorona has become indispensable, offering insights into team productivity and aiding informed decisions, making it a crucial tool for our organization.`,
+	// },
 ];
 
 export const appIntegration = {
@@ -463,8 +463,8 @@ export const footerTop = {
 				},
 				{
 					id: 2,
-					title: "Plans",
-					link: "/subscription-plans",
+					title: "Pricing",
+					link: "/pricing",
 				},
 				{
 					id: 3,

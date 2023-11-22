@@ -1,13 +1,12 @@
-import React from "react";
-import Container from "@/common/components/UI/Container";
-import Image from "@/common/components/Image";
 import Heading from "@/common/components/Heading";
+import Image from "@/common/components/Image";
 import Text from "@/common/components/Text";
+import Container from "@/common/components/UI/Container";
 import Section, {
-	SectionHeading,
-	ReactSlick,
-	Item,
 	AuthorInfo,
+	Item,
+	ReactSlick,
+	SectionHeading,
 } from "./testimonials.style";
 
 import { testimonials } from "@/common/data/WebAppCreative";
