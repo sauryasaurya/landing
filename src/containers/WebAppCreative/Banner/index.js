@@ -5,6 +5,7 @@ import Text from "@/common/components/Text";
 import Container from "@/common/components/UI/Container";
 import PropTypes from "prop-types";
 
+import Link from "@/common/components/Link";
 import Section, {
 	BannerContent,
 	BannerContentWrapper,
@@ -25,7 +26,9 @@ const Banner = ({ button }) => {
 							className="animate__animated animate__fadeInUp"
 							content="Velorona is a time tracker and a timesheet app that let's you generate auto Invoice for your clients according to worked hour whithout need of any extra tools."
 						/>
-						<Button {...button} title="Join Free" type="submit" />
+						<Link href={process.env.NEXT_PUBLIC_JOIN_FREE_URL}>
+							<Button {...button} title="Join Free" type="submit" />
+						</Link>
 					</BannerContent>
 					<Figure className="animate__animated animate__fadeInUp animate__fast">
 						<NextImage
