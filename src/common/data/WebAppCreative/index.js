@@ -14,7 +14,6 @@ import icon6 from "@/common/assets/image/webAppCreative/icons/6.png";
 import icon7 from "@/common/assets/image/webAppCreative/icons/7.png";
 import asana from "@/common/assets/image/webAppCreative/icons/asana.png";
 import donut from "@/common/assets/image/webAppCreative/icons/donut.png";
-import dribbble from "@/common/assets/image/webAppCreative/icons/dribbble.png";
 import drive from "@/common/assets/image/webAppCreative/icons/drive.png";
 import dropbox from "@/common/assets/image/webAppCreative/icons/dropbox.png";
 import facebook from "@/common/assets/image/webAppCreative/icons/facebook.png";
@@ -22,12 +21,12 @@ import fontAwesome from "@/common/assets/image/webAppCreative/icons/fontawesome.
 import github from "@/common/assets/image/webAppCreative/icons/github.png";
 import googleCloud from "@/common/assets/image/webAppCreative/icons/google-cloud.png";
 import icecream from "@/common/assets/image/webAppCreative/icons/icecream.png";
+import linkedin from "@/common/assets/image/webAppCreative/icons/linkedin.png";
 import messenger from "@/common/assets/image/webAppCreative/icons/messenger.png";
 import nginx from "@/common/assets/image/webAppCreative/icons/nginx.png";
 import pizza from "@/common/assets/image/webAppCreative/icons/pizza.png";
 import slack2 from "@/common/assets/image/webAppCreative/icons/slack.png";
 import smashingMag from "@/common/assets/image/webAppCreative/icons/smashing-mag.png";
-import twitter from "@/common/assets/image/webAppCreative/icons/twitter.png";
 import zeplin from "@/common/assets/image/webAppCreative/icons/zeplin.png";
 import zoom from "@/common/assets/image/webAppCreative/icons/zoom.png";
 import siteLogo from "@/common/assets/image/webAppCreative/logo.png";
@@ -494,7 +493,7 @@ export const footerTop = {
 };
 
 export const footer = {
-	copyright: `Copyright © ${new Date().getFullYear()} Superprops. All rights reserved`,
+	copyright: `Copyright © ${new Date().getFullYear()} Velorona Inc. | All Rights Reserved.`,
 	nav: [
 		{
 			id: 1,
@@ -520,21 +519,21 @@ export const footer = {
 	socialLinks: [
 		{
 			id: 1,
-			link: "http://facebook.com",
+			link: "https://www.facebook.com/profile.php?id=100085932960410",
 			icon: facebook,
 			label: "Facebook",
 		},
-		{
-			id: 2,
-			link: "http://twitter.com",
-			icon: twitter,
-			label: "Twitter",
-		},
+		// {
+		// 	id: 2,
+		// 	link: "http://twitter.com",
+		// 	icon: twitter,
+		// 	label: "Twitter",
+		// },
 		{
 			id: 3,
-			link: "http://dribbble.com",
-			icon: dribbble,
-			label: "Dribbble",
+			link: "https://www.linkedin.com/company/velorona/",
+			icon: linkedin,
+			label: "LinkedIn",
 		},
 	],
 };
