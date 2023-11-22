@@ -497,7 +497,7 @@ export const footer = {
 		{
 			id: 1,
 			title: "Support",
-			link: "#",
+			link: "/contact-us",
 		},
 		{
 			id: 2,
