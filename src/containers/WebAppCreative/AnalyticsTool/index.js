@@ -18,8 +18,8 @@ const AnalyticsTool = () => {
 					<Fade up>
 						<Figure>
 							<NextImage
-								src="https://velorona-storage.s3.amazonaws.com/assets/medias/what-to-do.png	"
-								alt="illustration"
+								src="https://velorona-storage.s3.amazonaws.com/assets/medias/what-to-do.png"
+								alt="What to do"
 								width={782}
 								height={400}
 							/>
