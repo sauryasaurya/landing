@@ -45,6 +45,10 @@ const PricingAppMinimal = () => {
 								recommended,
 								title,
 								price,
+								base,
+								plus,
+								extra,
+								perMonth,
 								tagline,
 								planLabel,
 								options,
@@ -56,10 +60,16 @@ const PricingAppMinimal = () => {
 								<PriceCard
 									className={recommended === true ? "recommended" : " "}
 								>
-									<CardTop className="cardTop">
+									<CardTop className="cardTop ">
 										<Heading as="h3" content={title} />
-										<PricingAmount>
-											<Heading as="h4" content={price} />
+										<PricingAmount className="">
+											<div className="flex flex-row">
+												<Heading as="h4" content={price} />
+												<Text as="p" content={base} />
+												<Heading as="h4" content={` ${plus} `} />
+												<Heading as="h4" content={extra} />
+												<Text as="p" content={perMonth} />
+											</div>
 											<Text as="p" content={tagline} />
 										</PricingAmount>
 									</CardTop>

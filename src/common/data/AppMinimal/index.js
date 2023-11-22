@@ -391,23 +391,42 @@ export const MONTHLY_PRICING_DATA = [
 		recommended: false,
 		title: "Lite",
 		price: "Free",
+		base: "",
+		plus: "",
+		extra: "",
+		perMonth: "",
 		tagline: "with restrictions",
 		planLabel: "Plan includes:",
 		options: [
 			{
-				text: "Manage conversations directly from your websites optimization.",
+				text: "5 Team members",
 			},
 			{
-				text: "Unlimited links",
+				text: "1 Free Company Admin",
 			},
 			{
-				text: "Chat promt supported",
+				text: "Unlimited Free Approvers",
 			},
 			{
-				text: "Optimzed hashtags",
+				text: "Automatic and Manual Invoicing",
 			},
 			{
-				text: "Own analytics platform",
+				text: "Unlimited Clients and Projects",
+			},
+			{
+				text: "Customizable Reports",
+			},
+			{
+				text: "Smart Scheduling",
+			},
+			{
+				text: "Timesheet Management",
+			},
+			{
+				text: "Check-in and Check-out with Geo Location",
+			},
+			{
+				text: "Mobile Apps",
 			},
 		],
 		button: {
@@ -418,24 +437,22 @@ export const MONTHLY_PRICING_DATA = [
 	{
 		recommended: true,
 		title: "Pro",
-		price: "$15.93",
+		price: "$10",
+		base: "/mo",
+		plus: " + ",
+		extra: "$2",
+		perMonth: "/user/mo",
 		tagline: "Monthly",
 		planLabel: "Plan includes:",
 		options: [
 			{
-				text: "Manage conversations directly from your websites optimization.",
+				text: "All features of free paln",
 			},
 			{
-				text: "Unlimited links",
+				text: "Unlimited team members",
 			},
 			{
-				text: "Chat promt supported",
-			},
-			{
-				text: "Optimzed hashtags",
-			},
-			{
-				text: "Own analytics platform",
+				text: "Prioritized Support",
 			},
 		],
 		button: {
