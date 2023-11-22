@@ -163,28 +163,28 @@ export const testimonials = [
 		logo: icon6,
 		author: "Deanna Hodges",
 		designation: "Business HR Admin",
-		quote: `Our transition to using Velorona has been smooth and incredibly beneficial. The platform itself is a great fit for our business, providing the perfect blend of features, user-friendliness, and affordability. We highly recommend Velorona to fellow business owners.`,
+		quote: `Transitioning to Velorona has been remarkably smooth and beneficial for our business. The platform seamlessly integrates features, user-friendliness, and affordability, making it a perfect fit. We wholeheartedly recommend Velorona to fellow business owners for an optimal and cost-effective solution.`,
 	},
 	{
 		id: 3,
 		logo: icon7,
 		author: "Rory Mason",
 		designation: "Senior Marketer",
-		quote: `Velorona has made employee management and time tracking a simple and efficient process. The plat-form's ability to seamlessly track tasks and generate invoices has greatly enhanced our productivity. It's become an integral tool in our business operations, simplifying complex processes and allowing us to focus more on delivering excellent service to our clients.`,
+		quote: `Velorona streamlines employee management and time tracking, enhancing productivity with seamless task tracking and efficient invoice generation. Integral to our operations, it enables us to focus on delivering excellent service, simplifying processes, and boosting overall business efficiency.`,
 	},
 	{
 		id: 4,
 		logo: icon5,
 		author: "Ralph Simpson",
 		designation: "Project Manager",
-		quote: `Choosing Velorona was a strategic move for our business. It has made employee management and time tracking a simple and efficient process. Additionally, it has improved our workflow, helping us stay organized and ensuring we meet our project deadlines with ease. We highly recommend Velorona for its reliability and effectiveness.`,
+		quote: `Opting for Velorona strategically transformed our business. Simplifying employee management and time tracking, it streamlined workflows, ensuring organizational efficiency and timely project delivery. We highly endorse Velorona for its reliability, making it an essential choice for businesses seeking effectiveness and seamless operations.`,
 	},
 	{
 		id: 5,
-		logo: icon4,
+		logo: icon5,
 		author: "Henry Williams",
 		designation: "Client Relationship Manager",
-		quote: `Velorona has transformed the way we organize our tasks and manage projects. Its adaptability to businesses of all sizes is commendable. Their support team has been nothing short of exceptional, always ready to assist us whenever needed. It's become an indispensable tool for our organization, providing us with insights into our team's productivity and helping us make informed decisions to drive our business.`,
+		quote: `Velorona transformed our task organization and project management. Its commendable adaptability to businesses of all sizes is noteworthy. The exceptional support team is always ready to assist. Velorona has become indispensable, offering insights into team productivity and aiding informed decisions, making it a crucial tool for our organization.`,
 	},
 ];
 
