@@ -438,10 +438,10 @@ export const MONTHLY_PRICING_DATA = [
 		recommended: true,
 		title: "Pro",
 		price: "$10",
-		base: "/mo",
+		base: "",
 		plus: " + ",
 		extra: "$2",
-		perMonth: "/user/mo",
+		perMonth: "/user",
 		tagline: "Monthly",
 		planLabel: "Plan includes:",
 		options: [
