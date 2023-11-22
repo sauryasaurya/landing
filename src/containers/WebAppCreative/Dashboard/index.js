@@ -1,10 +1,9 @@
-import React from "react";
-import { Tab, TabList, TabPanel } from "react-tabs";
-import Container from "@/common/components/UI/Container";
+import Heading from "@/common/components/Heading";
 import NextImage from "@/common/components/NextImage";
 import Text from "@/common/components/Text";
-import Heading from "@/common/components/Heading";
-import Section, { SectionHeading, ReactTabs } from "./dashboard.style";
+import Container from "@/common/components/UI/Container";
+import { Tab, TabList, TabPanel } from "react-tabs";
+import Section, { ReactTabs, SectionHeading } from "./dashboard.style";
 
 import { dashboard } from "@/common/data/WebAppCreative";
 
@@ -28,7 +27,12 @@ const Dashboard = () => {
 					{dashboard.tabs.map((tab) => (
 						<TabPanel key={tab.id}>
 							<figure className="animate__animated animate__fadeInUp">
-								<NextImage src={tab.content.image} alt={tab.title} />
+								<NextImage
+									src={tab.content.image}
+									alt={tab.title}
+									width={1920}
+									height={1080}
+								/>
 							</figure>
 						</TabPanel>
 					))}

@@ -4,7 +4,6 @@ import forbes from "@/common/assets/image/webAppCreative/clients/forbes.png";
 import geekwire from "@/common/assets/image/webAppCreative/clients/geekwire.png";
 import slack from "@/common/assets/image/webAppCreative/clients/slack.png";
 import usaToday from "@/common/assets/image/webAppCreative/clients/usa-today.png";
-import dashboardImg from "@/common/assets/image/webAppCreative/dashboard-2.png";
 import icon1 from "@/common/assets/image/webAppCreative/icons/1.png";
 import icon2 from "@/common/assets/image/webAppCreative/icons/2.png";
 import icon3 from "@/common/assets/image/webAppCreative/icons/3.png";
@@ -123,28 +122,28 @@ export const dashboard = {
 			id: 1,
 			title: "Company Admin",
 			content: {
-				image: dashboardImg,
+				image: `https://velorona-storage.s3.amazonaws.com/assets/medias/companyadmin-general-dash.png`,
 			},
 		},
 		{
 			id: 2,
 			title: "Employee",
 			content: {
-				image: dashboardImg,
+				image: `https://velorona-storage.s3.amazonaws.com/assets/medias/employee-dash.png`,
 			},
 		},
 		{
 			id: 3,
 			title: "Approver",
 			content: {
-				image: dashboardImg,
+				image: `https://velorona-storage.s3.amazonaws.com/assets/medias/approver-dash.png`,
 			},
 		},
 		{
 			id: 4,
 			title: "Payroll Admin",
 			content: {
-				image: dashboardImg,
+				image: `https://velorona-storage.s3.amazonaws.com/assets/medias/payroll-admin-dash.png`,
 			},
 		},
 	],

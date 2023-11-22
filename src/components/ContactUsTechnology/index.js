@@ -38,7 +38,12 @@ const ContactUsTechnology = () => {
 					<FigureWrapper>
 						<Fade up>
 							<Figure>
-								<NextImage src={technologyCommunity?.thumb} alt="analytics" />
+								<NextImage
+									src="https://velorona-storage.s3.amazonaws.com/assets/medias/contact-us.png"
+									alt="Contact Us"
+									width={600}
+									height={400}
+								/>
 							</Figure>
 						</Fade>
 					</FigureWrapper>

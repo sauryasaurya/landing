@@ -10,8 +10,6 @@ import {
 	TextContent,
 } from "./trackAudience.style";
 
-import illustration from "@/common/assets/image/saasMinimal2/track-audience.png";
-
 const AboutUsTrackAudience = () => {
 	return (
 		<Section>
@@ -36,7 +34,12 @@ const AboutUsTrackAudience = () => {
 					</TextContent>
 
 					<Illustration>
-						<NextImage src={illustration} alt="illustration" />
+						<NextImage
+							src="https://velorona-storage.s3.amazonaws.com/assets/medias/about-us.png"
+							alt="illustration"
+							width={782}
+							height={400}
+						/>
 					</Illustration>
 				</ContentWrapper>
 			</Container>

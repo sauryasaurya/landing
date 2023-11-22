@@ -1,4 +1,3 @@
-import dashboard from "@/common/assets/image/webAppCreative/dashboard.png";
 import Button from "@/common/components/Button";
 import Heading from "@/common/components/Heading";
 import NextImage from "@/common/components/NextImage";
@@ -26,10 +25,15 @@ const Banner = ({ button }) => {
 							className="animate__animated animate__fadeInUp"
 							content="Velorona is a time tracker and a timesheet app that let's you generate auto Invoice for your clients according to worked hour whithout need of any extra tools."
 						/>
-						<Button {...button} title="Get a demo" type="submit" />
+						<Button {...button} title="Join Free" type="submit" />
 					</BannerContent>
 					<Figure className="animate__animated animate__fadeInUp animate__fast">
-						<NextImage src={dashboard} alt="dashboard" />
+						<NextImage
+							src="https://velorona-storage.s3.amazonaws.com/assets/medias/companyadmin-users-dash.png"
+							alt="Contact Us"
+							width={1920}
+							height={1080}
+						/>
 					</Figure>
 				</BannerContentWrapper>
 			</Container>

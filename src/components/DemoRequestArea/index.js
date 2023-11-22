@@ -4,7 +4,6 @@ import Heading from "@/common/components/Heading";
 import Input from "@/common/components/Input";
 import NextImage from "@/common/components/NextImage";
 import Container from "@/common/components/UI/Container";
-import { technologyCommunity } from "@/common/data/AppCreative2";
 import Fade from "react-reveal/Fade";
 import Section, {
 	Content,
@@ -89,10 +88,15 @@ const DemoRequestArea = ({ button }) => {
 						</Box>
 					</FigureWrapper>
 
-					<Content>
+					<Content className="m-4">
 						<Fade up>
 							<Figure>
-								<NextImage src={technologyCommunity?.thumb} alt="analytics" />
+								<NextImage
+									src="https://velorona-storage.s3.amazonaws.com/assets/medias/demo-request.png"
+									alt="Contact Us"
+									width={700}
+									height={600}
+								/>
 							</Figure>
 						</Fade>
 					</Content>
