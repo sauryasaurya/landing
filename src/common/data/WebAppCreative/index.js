@@ -108,10 +108,10 @@ export const analyticsTool = {
 		"Overlapping Schedules",
 		"Unlimited Invoice Generation",
 	],
-	button: {
-		link: "#",
-		label: "Explore More",
-	},
+	// button: {
+	// 	link: "#",
+	// 	label: "Explore More",
+	// },
 };
 
 export const dashboard = {
