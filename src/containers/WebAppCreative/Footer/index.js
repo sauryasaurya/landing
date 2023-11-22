@@ -1,6 +1,8 @@
 import logoImage from "@/common/assets/image/webAppCreative/velorona50x50.svg";
 import Heading from "@/common/components/Heading";
-import Link from "@/common/components/Link";
+// import Link from "@/common/components/Link";
+import Link from "next/link";
+
 import Text from "@/common/components/Text";
 import Container from "@/common/components/UI/Container";
 import Logo from "@/common/components/UIElements/Logo";
@@ -89,7 +91,11 @@ const Footer = () => {
 						<ul>
 							{footer.socialLinks.map((item) => (
 								<li key={item.id}>
-									<Link href={item.link}>
+									<Link
+										href={item.link}
+										rel="noopener noreferrer"
+										target="_blank"
+									>
 										<img src={item.icon?.src} alt={item.label} />
 									</Link>
 								</li>
