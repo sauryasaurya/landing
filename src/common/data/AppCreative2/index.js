@@ -288,10 +288,10 @@ export const technologyCommunity = {
 	title: "We Are Always Ready To Help You.",
 	desc: `Navigating our services at Velorona is always hassle-free and straightforward. We're here to guide you every step of the way regardless of your level of experience with our software. Your satisfaction and success are our priority, and we're excited to embark on a mutually rewarding journey with you!`,
 	thumb: technologyImage,
-	button: {
-		label: "Explore More",
-		link: "#",
-	},
+	// button: {
+	// 	label: "Explore More",
+	// 	link: "#",
+	// },
 };
 export const technologyCommunityPricing = {
 	slogan: "Technology based Community",

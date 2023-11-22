@@ -1,10 +1,7 @@
 import Heading from "@/common/components/Heading";
-import Link from "@/common/components/Link";
 import NextImage from "@/common/components/NextImage";
 import Text from "@/common/components/Text";
 import Container from "@/common/components/UI/Container";
-import { Icon } from "react-icons-kit";
-import { ic_chevron_right } from "react-icons-kit/md/ic_chevron_right";
 
 import {
 	ContentWrapper,
@@ -33,9 +30,9 @@ const AboutUsTrackAudience = () => {
 							className="desc"
 							content="With our advanced platform, business owners, service providers, and employees no longer need to invest excessive time and effort in paperwork. Instead, they can focus more on meaningful and progressive activities, ultimately contributing to business growth and success. Experience the transformative journey from administrative burdens to streamlined operations with Velorona."
 						/>
-						<Link className="link" href="#">
+						{/* <Link className="link" href="#">
 							Learn More <Icon size={20} icon={ic_chevron_right} />
-						</Link>
+						</Link> */}
 					</TextContent>
 
 					<Illustration>

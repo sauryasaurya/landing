@@ -1,12 +1,8 @@
-import Button from "@/common/components/Button";
 import Heading from "@/common/components/Heading";
-import Link from "@/common/components/Link";
 import NextImage from "@/common/components/NextImage";
 import Text from "@/common/components/Text";
 import Container from "@/common/components/UI/Container";
 import { technologyCommunity } from "@/common/data/AppCreative2";
-import { Icon } from "react-icons-kit";
-import { ic_keyboard_arrow_right } from "react-icons-kit/md/ic_keyboard_arrow_right";
 import Fade from "react-reveal/Fade";
 import Section, {
 	Content,
@@ -28,7 +24,7 @@ const ContactUsTechnology = () => {
 								className="description"
 								content={technologyCommunity?.desc}
 							/>
-							<Link
+							{/* <Link
 								href={technologyCommunity?.button?.link}
 								className="explore"
 							>
@@ -36,7 +32,7 @@ const ContactUsTechnology = () => {
 									title={technologyCommunity?.button?.label}
 									icon={<Icon icon={ic_keyboard_arrow_right} size={24} />}
 								/>
-							</Link>
+							</Link> */}
 						</SectionHeading>
 					</Content>
 					<FigureWrapper>
