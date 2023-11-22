@@ -411,8 +411,8 @@ export const MONTHLY_PRICING_DATA = [
 			},
 		],
 		button: {
-			label: "Start 14 days of free trial",
-			link: "#",
+			label: "Choose Plan",
+			link: "https://dev-app.velorona.com/",
 		},
 	},
 	{
@@ -439,8 +439,8 @@ export const MONTHLY_PRICING_DATA = [
 			},
 		],
 		button: {
-			label: "Start 14 days of free trial",
-			link: "#",
+			label: "Choose Plan",
+			link: "https://dev-app.velorona.com/",
 		},
 	},
 ];
@@ -470,8 +470,8 @@ export const YEARLY_PRICING_DATA = [
 			},
 		],
 		button: {
-			label: "Start 14 days of free trial",
-			link: "#",
+			label: "",
+			link: "https://dev-app.velorona.com/",
 		},
 	},
 	{
