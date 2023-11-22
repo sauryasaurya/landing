@@ -1,4 +1,3 @@
-import analytics from "@/common/assets/image/webAppCreative/analytics.png";
 import parallaxBg from "@/common/assets/image/webAppCreative/parallax-1.png";
 import Heading from "@/common/components/Heading";
 import NextImage from "@/common/components/NextImage";
@@ -18,7 +17,12 @@ const AnalyticsTool = () => {
 				<Grid>
 					<Fade up>
 						<Figure>
-							<NextImage src={analytics} alt="analytics" />
+							<NextImage
+								src="https://velorona-storage.s3.amazonaws.com/assets/medias/what-to-do.png	"
+								alt="illustration"
+								width={782}
+								height={400}
+							/>
 						</Figure>
 					</Fade>
 					<Content>
