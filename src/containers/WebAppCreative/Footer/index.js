@@ -1,4 +1,4 @@
-import logoImage from "@/common/assets/image/webAppCreative/velorona50x50.svg";
+import logoImage from "@/common/assets/image/webAppCreative/veloronaFull.png";
 import Heading from "@/common/components/Heading";
 // import Link from "@/common/components/Link";
 import Link from "next/link";
